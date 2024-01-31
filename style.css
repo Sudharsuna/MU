@@ -1,0 +1,282 @@
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+*{
+    font-style: italic;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.861);
+    
+}
+.Mainheader{   
+
+   background-image:url("images/ar-rahmanbg.png") ;
+   background-size: cover;
+   padding-bottom: 300px;
+}
+.nav ul{
+    margin: 0;
+
+}
+.nav li{display: inline;
+    padding: 0 5%;
+    
+}
+.nav a{
+    font-style: normal;
+    padding: .5em;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: x-large;
+    
+}
+.nav a:hover{
+background-color: rgba(255, 255, 255, 0.311);
+}
+.nav{
+    text-align: center;
+    font-weight: lighter;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.311);
+}
+.namee{
+    text-align: justify;
+    color: white;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.mainname{
+    font-family: sans-serif;
+    color: rgb(225, 225, 225);
+    margin-left: 640px;
+    margin-top: 0px;
+    font-style: normal;
+
+    ;
+}
+.content{
+    margin: 1em;
+}
+.about{
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutimg{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 1000px;
+    margin-top: 0px;
+}
+
+.topbtn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67cm;
+    cursor: pointer;
+}
+.topbtn:hover{
+    background-color: rgba(255, 255, 255, 0.311);
+}
+.headbut{
+    margin: .5em 15% 2em 15%;
+    color: white;
+    font-style: normal;
+    border: 2px solid rgba(252, 252, 252, 0.891);
+    border-radius: 0px;
+    background-color: rgba(238, 3, 30, 0.584);
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+.play{
+    
+    border-radius:50%;
+}
+.rows{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: larger;
+}
+.rowslast{
+    border-bottom: none;
+}
+.item{
+    padding-right: .5em;
+    font-style: normal;
+}
+.ticketbtn{
+    background-color: rgb(38, 179, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: whitesmoke;
+    font-weight: 300;
+    cursor: pointer;
+}
+.ticketbtn:hover{
+    background-color: rgb(178, 17, 17);
+}
+.error{
+    text-align: center;
+    padding-top: 150px;
+    
+
+}
+.p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    
+}
+.album{
+    margin: 30px;
+    
+}
+.albumtitle{
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: black;
+}
+.albumimg{
+    height: 250px;
+
+}
+.albumdet{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.price{
+    flex-grow: 1;
+    color: black;
+
+}
+.albums{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.albumbtn{
+    background-color: rgb(5, 152, 249);
+    color: white;
+    border: none;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.albumbtn:hover{
+    background-color: rgba(150, 167, 180, 0.97);
+}
+.cart-header{
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1PX solid black;
+    margin-right: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+}
+.cart-row{
+    display: flex;
+}
+.cart-item{
+    width: 45%;
+}
+.cart-price{
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+
+    
+}
+.cart-quantity{
+    width: 35%;
+
+}
+.cart-tit{
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+.cartimg{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.dnger{
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.dnger:hover{
+    background-color: #CC4C4C;
+}
+.cart-input{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+.cart-row:last-child.cart-column{
+    border: none;
+}
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.carttottit{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    padding-right: 20px;
+}
+.cartotprice{
+    color: #333;
+    font-size: 1.1em;
+}
+.btn-pur{
+    display: block;
+    margin: 44px auto 80px auto;
+    font-size: 1.7em;
+}
